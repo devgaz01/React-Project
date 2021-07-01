@@ -1,0 +1,131 @@
+/* Integrating Fonts globally in project */
+
+@font-face {
+  font-family: NunitoBlack;
+  src: url(./assets/fonts/Nunito-Black.ttf);
+}
+@font-face {
+  font-family: NunitoBlackItalic;
+  src: url(./assets/fonts/Nunito-BlackItalic.ttf);
+}
+@font-face {
+  font-family: NunitoBold;
+  src: url(./assets/fonts/Nunito-Bold.ttf);
+}
+@font-face {
+  font-family: NunitoBoldItalic;
+  src: url(./assets/fonts/Nunito-BoldItalic.ttf);
+}
+@font-face {
+  font-family: NunitoExtraBold;
+  src: url(./assets/fonts/Nunito-ExtraBold.ttf);
+}
+@font-face {
+  font-family: NunitoExtraBoldItalic;
+  src: url(./assets/fonts/Nunito-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: NunitoExtraLight;
+  src: url(./assets/fonts/Nunito-ExtraLight.ttf);
+}
+@font-face {
+  font-family: NunitoExtraLightItalic;
+  src: url(./assets/fonts/Nunito-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: NunitoItalic;
+  src: url(./assets/fonts/Nunito-Italic.ttf);
+}
+@font-face {
+  font-family: NunitoLight;
+  src: url(./assets/fonts/Nunito-Light.ttf);
+}
+@font-face {
+  font-family: NunitoLightItalic;
+  src: url(./assets/fonts/Nunito-LightItalic.ttf);
+}
+@font-face {
+  font-family: NunitoRegular;
+  src: url(./assets/fonts/Nunito-Regular.ttf);
+}
+@font-face {
+  font-family: NunitoSemiBold;
+  src: url(./assets/fonts/Nunito-SemiBold.ttf);
+}
+@font-face {
+  font-family: NunitoSemiBoldItalic;
+  src: url(./assets/fonts/Nunito-SemiBoldItalic.ttf);
+}
+
+/* These are some global styles */
+body{
+  margin: 0;
+  padding: 0;
+}    
+
+.auth-input{
+  width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    padding: 12px 0px;
+    font-family: NunitoRegular;
+    color: #fff;
+    margin-bottom: 16px;
+    font-family: NunitoLight;
+    font-size: 14px;
+
+}
+
+.auth-input::placeholder{
+  color: #fff;
+}
+
+.MuiTypography-body1 {
+  color: #fff;
+  font-family: NunitoLight !important;
+  font-size: 14px !important;
+}
+.MuiButton-disableElevation.Mui-disabled {
+  color: #ffffff8c !important;
+}
+/* Using some css media querry for responsive layout */
+
+@media all and (max-width: 767px) and (min-width: 320px){
+  .makeStyles-rightbox-9{
+    padding: 0px !important;
+  }
+  .makeStyles-paper-3{
+    width: 100% !important;
+  }
+  .makeStyles-leftbox-8{
+    padding: 25px !important;
+  }
+  .makeStyles-description-13{
+    width: 100% !important;
+    
+  }
+  .MuiTypography-body1{
+    font-size: 12px !important;
+  }
+
+}
+@media all and (max-width: 1023px) and (min-width: 768px){
+  .makeStyles-paper-3{
+    width: 100% !important;
+  }
+  .makeStyles-rightbox-9{
+    padding: 0px !important;
+  }
+}
+@media all and (max-width: 1365px) and (min-width: 1024px){
+  .makeStyles-paper-3{
+    width: 100% !important;
+  }
+  .makeStyles-rightbox-9{
+    padding: 0px !important;
+  }
+}
+
+
